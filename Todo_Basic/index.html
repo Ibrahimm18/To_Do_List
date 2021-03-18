@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple ToDo_List</title>
+</head>
+<body>
+    <div id ="container">
+        <div class="controls">
+            <h1>MY ListS To-do</h1>
+            <input type="text" id="input"> <br>
+            <p><input type="text" id="input2" placeholder="Enter ur to-do"></p>
+            
+            <button type="button" id="add">ADD</button>
+            <button type="button" id="remove">Remove</button>
+            <button type="button" id="delete">DeleteAll</button>
+            
+        </div>
+        <ul id="list">
+            <li class="mychecks">
+                <input type="checkbox" id="check"><label>Play Cricket</label>
+            </li>
+            <li class="mychecks">
+                <input type="checkbox" id="check" checked><label>Play Shuttle</label>
+            </li>
+            <li class="mychecks">
+                <input type="checkbox" id="check"><label>Play Volleyball</label>
+            </li>
+            <li class="mychecks">
+                <input type="checkbox" id="check" checked><label>Play Football</label>
+            </li>
+        </ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
